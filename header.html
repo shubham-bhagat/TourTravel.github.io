@@ -1,0 +1,66 @@
+<!-- <script type="text/javascript">
+
+          window.onload = function () {
+           alert(" Please logout to proceed to signup");
+           window.location= "products.php"; 
+       }
+
+</script>';
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .ims
+    {
+      background: url('../images/frontify-cta_free-trial.png')no-repeat center center;
+      background-size: cover;
+      height:600px;
+      max-width:650px;
+    
+    }
+  </style>
+  <title>About</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="externalcss.css">
+</head>
+<body>
+
+  <div class="con_mar">
+    <div class="row">
+      <div class="ims col-xs-6"></div>
+      <div class="  col-xs-6">
+        <br><br><br><br>
+      <p class="heading_color"><b>Sign UP</b></p>
+  <form method="post" action="signup_script.php">
+    <div class="form-group">
+    <input type="text" class="form-control" name="name_user" id="name_user" required placeholder="Name"></input>
+      </div>
+
+      <div class="form-group">
+        <input type="email" name="email_id" id="email_id"  placeholder="Email" required class="form-control" ></input>
+      </div>
+
+      <div class="form-group">
+        <input type="password" name="password" pattern=".{6,}"
+        id="password" placeholder="password  greater than 6 character" required class="form-control"></input></div>
+
+      <div class="form-group">
+        <input type="text" placeholder="Contact" class="form-control" name="phone" required id="phone" ></input></div>
+
+      <div class="form-group">
+        <input type="text" required placeholder="City" id="city" name="city" class="form-control"></input></div>
+
+      <div class="form-group">
+        <input type="text" required placeholder="Address" class="form-control" id="address" name="address"></input></div>
+
+      <div class="form-group">
+    <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+            </form></div></div></div></form></div></div>
+
+
+
+</body>
+</html>

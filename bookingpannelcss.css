@@ -1,0 +1,17 @@
+.first .flight_pannel
+{
+
+  height:230px;
+  width:500px;
+  background-color: #4a364a;
+  margin-left: 400px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.first
+{
+  width:1360px;
+  height:350px;
+  border-radius: 12px;
+  margin-left:0;
+}

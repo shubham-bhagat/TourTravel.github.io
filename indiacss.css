@@ -1,0 +1,113 @@
+.first
+{
+  height:40px;
+
+  width:600px;
+  margin-top:100px;
+ display: inline-block;
+
+}
+.first1
+
+{
+  height:40px;
+
+  width:600px;
+  margin-top:100px;
+ display: inline-block;
+
+}
+.second
+{
+  display:inline-block;
+  margin-top: 150px;
+  margin-right: 20px;
+}
+.second:hover{
+  height: 320px;
+
+  transition: all ease;
+}
+.h2:hover
+{
+  background: url('rajas.png')center center;
+  height:150px;
+}
+.h3:hover
+{
+  background: url('images111.png')center center no-repeat;
+  height:250px;
+  width:400px;
+}
+
+ .first .image1:hover{
+  height:320px;
+  width:620px;
+  transition: all 0sec ease;
+}
+.image14
+{
+  position:absolute;
+  width:1360px;
+height:300px;}
+
+.gujrat1
+{
+  margin-top: 150px;
+  margin-left: 390px;
+  border-radius:25px;
+  height:400px;
+  width:600px;
+}
+.gujrat:hover
+{
+
+  background:url('guj.jpg')center center no-repeat;
+
+
+}
+.flight:hover
+{
+  margin-top: 60px;
+  margin-left: 390px;
+  box-sizing: border-box;
+  box-shadow:8px 8px 8px #262626;
+  border-radius:25px;
+  height:400px;
+  width:600px;
+
+  transition: all 1s easy;
+}
+.travel_world
+{
+  margin-top: 250px;
+  margin-left: 390px;
+
+  border-radius:25px;
+  height:400px;
+  width:600px;
+
+
+}
+
+
+
+
+  .last_page
+  {
+margin-top: 150px;
+    height:240px;
+    width:1358px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 10px #262626;
+     background-color: #d9d9d9;
+  }
+  .para
+  {
+;
+}
+.h1:hover{
+  background:url('logomaha.jpg')center center;
+   height:200px;
+
+}

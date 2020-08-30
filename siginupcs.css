@@ -1,0 +1,124 @@
+/* Sigin up*/
+/*/providing background to the sigin page*/
+body{
+	background:url("13.jpg")no-repeat;
+
+
+}
+.sign{
+	font-family:serif;
+   color:white;
+	text-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+.tablesi
+{
+
+	margin-left:480px;
+	float:left;
+	padding:14px 16px;
+	min-width:inherit;
+	max-width:900px;
+}
+.tablesi .inputemail
+{
+	background-color:#ffdadf;
+	font-family: Arial;
+width:250px;
+}
+.tablesi .inputmail2
+{
+
+	background-color:#ffdadf;
+  font-family:arial;
+	width:250px;
+}
+.tablesi .inputpass{
+	background-color: #ffdadf;
+	font-family: arial;
+	width:250px;
+}
+.tablesi .inputpassword2
+{
+	background-color:#ffdadf;
+	font-family:arial;
+	width:250px;
+}
+.tablesi .submit1
+{
+margin-left: none;
+	padding:	5px 20px;
+}
+.tablesi .mail1
+{
+	align:center;
+}
+.image1
+{
+	position:absolute;
+	position: inherit;
+
+	margin-bottom: 50px;
+}
+
+.footer
+{
+	margin-top: 797px;
+	color:red;
+  height:210px;
+  width:1300px;
+	background-color:#262626;
+	font-family: arial;
+	font-size: 18px;
+	text-shadow: 10px 20px 20px ;
+	text-align: center;
+	border:2px solid black;
+}
+.footer .contact
+{
+	background-color: yellow;
+	border:2px solid black;
+}
+.last
+{
+	border:2px solid balck;
+}
+.last:hover{
+	background-color: red;
+	transition:background-color 1s easy;
+	border-radius: 50px;
+}
+ .mail{
+	background-color:brown;
+
+	color:white;
+	border-radius: 20px;
+}
+ .mail2
+{
+	background-color:brown;
+
+	color:white;
+	border-radius: 20px;
+}
+.pass
+{
+	background-color:brown;
+
+	color:white;
+	border-radius: 20px;
+}
+.pass1
+{
+	background-color:brown;
+
+	color:white;
+	border-radius: 20px;
+}
+.submit1
+{
+	border-radius:20px
+}
+.submit1:hover{
+	background-color: #262626;
+}

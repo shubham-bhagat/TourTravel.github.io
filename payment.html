@@ -1,0 +1,129 @@
+<html>
+<head>
+  <title>Payment Page</title>
+<link rel="stylesheet" type="text/css" href="paymentcss.css">
+</style>
+
+
+<script type="text/javascript">
+
+
+function validate(formobj)
+{
+  var Info,Cv;
+  Info=formobj.cd.value;
+  Cv=formobj.cvv1.value;
+  
+
+   if(Info.length==0 || Cv.length==0)
+  {
+    alert("Kindly fill the details first");
+
+    return false;
+  }
+  else if(Info.length<16||Info.length>16)
+  {
+    alert("Enter a valid input i.e card number of 16 digit");
+
+     formobj.cd.focus();
+    return false;
+  }
+
+  else if(Cv.length<3||Cv.length>3)
+  {
+    alert("Enter a valid input i.e cvv of 3 digit");
+   formobj.cvv1.focus();
+
+    return false;
+  }
+
+  else
+  {
+    alert("form submitted sucessfully");
+    return true;
+  }
+}
+</script>
+
+
+</head>
+
+
+<body >
+  <div class="navbar"style="width:1368px;">
+   <a href="homemainpagedashboard.html">Home</a>
+   <a href="#news"></a>
+
+   <div class="travel">
+     <button class="dropbtn">Travel
+       <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="travel-content">
+       <a href="india.html">In India</a>
+       <a href="forienpage.html">In Forien</a>
+        </div></div>
+
+        <div class="travel">
+          <button class="dropbtn">My profile
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="travel-content">
+             <a href="#">Shubham Bhagat</a>
+            <a href="mainpage.html">Logout</a>
+            </a>
+
+            </div></div>
+
+       <span class="icon"style="margin-left:950px"><img src="pa.png" width="60px" height="50px"</span>
+     </div>
+
+
+
+<form method="POST" action="homemainpagedashboard.html" onsubmit= "return validate(this);">
+
+  <div class="first" style="margin-top: 50px;margin-left:390px;border:1px solid #dfdfdf;width:500px;height:500px;" align="">
+
+<p style="border-bottom: 4px solid #d2d2d2">
+<span  style="margin-left: 150px;font-size:30px;font-weight:60px"> Paymet Details</span></p>
+<span  style="margin-left: 150px;font-size:15px;font-weight:60px"> Choose your Paymet option</span></p>
+
+<p ><span style="margin-left:50px" ><img src="rupay.png" width="100px" height="60px"></span>
+<span ><img src="master.png" width="100px" height="60px"></span>
+<span ><img src="deit.png" width="100px" height="60px"></span>
+<span ><img src="credit.png" width="100px" height="60px"></span>
+</p>
+
+<div style="margin-top: 50px"class="cardnumber">
+  <p style="margin-left: 20px"><label>Card Number:</p>
+  <input style="margin-left: 20px;border-radius:07px;text-align:center;width:280px" type="number" placeholder="card number" name="cd" id="cardnumber"/>
+</label>
+</p>
+<p style="margin-left: 20px"> <label> Expiration Date  &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; CV Code</p>
+   <input required style="margin-left: 20px;border-radius:07px;" type="date"/>  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; <input type="number" style="border-radius:07px;text-align:center;" placeholder="CVV" id="cvv" name="cvv1"/>
+</label>
+   <p style="margin-left: 20px"><label> Name on card
+   </p><input required style="margin-left: 20px;width:400px;border-radius:07px;"  type="text" />
+   </label>
+<br/><br/></br>
+<span class="process" >
+
+ <input  style="width:150px;border-radius:10px;border:2px outside #00ff00 ;background-color:#00ff00;" type="submit" name="btn1" value="PAY" id="paybtn" onclick="">
+</span>
+</div></form>
+
+
+</div>
+
+
+<br><br><br>
+<div class="last" style="height:350px;width:1365px;background:#262626;color:white">
+<div class="text" style="text-align: center">
+  <h1><br><br> 24/7 Support</h1>
+	<h6 >Our support service is available <br>24 hours a day.7 days a week ..And <br>365 days</h6>
+  <h6><p>contact-us: +91-545454735446</p>
+    <p> Email:- travlworld@gmail.com</p>
+			 &copy; TRAVEL-WORLD
+
+</div></div>
+</body>
+</html>

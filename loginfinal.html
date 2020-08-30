@@ -1,0 +1,159 @@
+
+<html>
+<head>
+  <title>Login</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="externalcss.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+    <script type="text/javascript">
+
+
+    function display(form)
+    {
+      if (form.user.value=="guest")
+      {
+        if(form.pass2.value=="guest")
+        {
+          location="homemainpagedashboard.html"
+        }else{alert("Invalid username")}
+      }else{alert("Please Fill the Valid details ")}
+    }
+
+    function myFunction(formobj) {
+        var x = document.getElementById("password1");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>
+
+</head>
+<body >
+  
+
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span></button>
+        <a href="mainpage.html" class="navbar-brand"><b>Travel World</b></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar" >
+        <ul class="nav navbar-nav navbar-right">    
+        <script type="javascript"></script>            
+                    <li><a href = "india.html"><span class = "glyphicon glyphicon-globe"></span> India </a></li>  
+                    <li><a href = "forienpage.html"><span class = "glyphicon glyphicon-plane"></span> Forien</a></li>                     
+                    <!-- <li><a href = "mainpage.html"><span class = "glyphicon glyphicon-log-in"></span> Logout</a></li>                 -->
+       <li><a href="signinoriginal.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>   
+       <!-- <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>    -->
+        
+                      </ul>
+             </div> 
+           </div>
+            </div>
+            </nav> 
+
+
+
+<!--  Pannel-->
+<div class="back"><br>
+<div class="container con_mar" >
+  <div class="row ">
+  
+    <div class="col-xs-5 col-xs-offset-2"style="opacity: 0.9;
+  filter: alpha(opacity=50);" >
+      <div class="panel panel_border panel-default ">
+        <div class="panel-heading ">
+            <h2 class="heading_color"><b>Login</b> <h2></div>
+            <div class="panel-body" ><center>
+              <p class="text-warning">Login to make a purchase</p>
+
+              
+                  <form method="POST" action="homemainpagedashboard.html ">
+            <div class="form-group">
+              <!-- <input type="email" placeholder="Email id" name="email_id" class="form-control" id="email_id"></div> -->
+              <input type="email" placeholder="For demo purpose username :- guest" name="user" class="form-control"></div>
+
+              <!--<div class="form-group">
+              <input type="text" name="first_name" placeholder="First Name" class="form-control" id="first_name"></div>
+
+
+              <div class="form-group">
+              <input type="text" name="last_name" class="form-control" placeholder="Last Name" id="last_name"></div>
+-->
+              <div class="form-group">
+              <!-- <input type="password" name="password" class="form-control" placeholder="password" id="password"></div> -->
+              <input type="password" placeholder="For demo purpose password :- guest"name="pass2" id="password1" class="form-control"></div>
+
+              </center>
+                <!-- <button type="submit" class="btn btn-primary" value="submit">Submit</button> -->
+                <p><input type="checkbox" onclick="myFunction()">Show password</p>
+                <button type="submit" name="submit" required value="Log In" id="login2" onClick="display(this.form)" class="btn btn-primary" value="submit">Submit</button>
+
+            </form></div>
+                
+              <div class="panel-footer text-sucess">
+           
+  
+                <p>Don't have a account ? <a href="siginoriginal.html">Register</a> </p>
+              </div>
+</div></div>  
+<div class="lm img-responsive img_pr col-xs-4 ">
+  <img class="img-responsive img_pr" src="../images/83818146-colorful-poster-in-white-background-of-e-commerce-and-shopping-with-laptop-computer-and-process-add-.jpg">
+
+    </div><br></div><br><br>
+</div>
+
+</div>
+              
+</center>
+
+
+<div class="footer background_footer" style="background-color: #434343">
+<div class="row">
+  <div class="col-xs-1"></div>
+  <div class="col-xs-3">
+    <h4><strong> Information</strong></h4>
+    <a href="#"><p class="text"> About Us</p></a>
+    <a href="#"><p class="text"> Conatct Us</p></a>
+</div>
+<div class="col-xs-1 col-xs-offset-1">
+<h4><Strong>Account</Strong></h4>
+<!-- <a href="login.php"><p class="text"> Login</p></a> -->
+<a href="siginoriginal.html"><p class="text"> Signup</p></a>
+</div>
+
+<div class="col-xs-2 col-xs-offset-3">
+<h4><Strong>Contact US</Strong></h4>
+<p>contact :- +91-123-00000</p>
+<a href="https://www.facebook.com/"><img  style="float: left;"class="img-responsive img-pr"src="..\images\facebook.svg" width="40px"></a>
+<a href="https://www.instagram.com"><img style="float: left;class="img-responsive img-pr" src="..\images\instagram.svg"width="40px"></a>
+<a href="https://www.youtube.com"><img class="img-responsive img-pr" src="..\images\youtube.svg"width="40px"></a>
+</div>
+</div></div>
+    </div>
+
+</body>
+
+</html>
+<!-- <script type="text/javascript">
+
+          window.onload = function () {
+           alert(" You are already login");
+           window.location= "mainpage.php"; 
+       }
+
+</script> -->

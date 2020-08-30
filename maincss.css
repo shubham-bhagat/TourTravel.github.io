@@ -1,0 +1,86 @@
+.first
+{
+  height:40px;
+
+  width:600px;
+  margin-top:100px;
+ display: inline-block;
+
+}
+.second
+{
+  display:inline-block;
+}
+.second .image2:hover{
+  height: 320px;
+  width:620px;
+  transition: all ease;
+}
+ .first .image1:hover{
+  height:320px;
+  width:620px;
+  transition: 0sec ease;
+}
+
+.flight
+{
+  margin-top: 60px;
+  margin-left: 390px;
+  box-sizing: border-box;
+  box-shadow:8px 8px 8px #262626;
+  border-radius:25px;
+  height:400px;
+  width:600px;
+  background:url("plane2.jpg")center center;
+}
+.flight:hover
+{
+  margin-top: 60px;
+  margin-left: 390px;
+  box-sizing: border-box;
+  box-shadow:8px 8px 8px #262626;
+  border-radius:25px;
+  height:400px;
+  width:600px;
+  background:url("airhostes.jpg")center center;
+  transition:  1s ease;
+}
+.hotels
+{
+  margin-top: 60px;
+  margin-left: 390px;
+  box-sizing: border-box;
+  box-shadow:8px 8px 8px #262626;
+  border-radius:25px;
+  height:400px;
+  width:600px;
+  background-image:url('hotel1.jpg');
+
+}
+.hotels:hover
+{
+  margin-top: 60px;
+  margin-left: 390px;
+  box-sizing: border-box;
+  box-shadow:8px 8px 8px #262626;
+  border-radius:25px;
+  height:400px;
+  width:600px;
+  background-image:url("hotel2.jpg");
+  transition: all 0s clear;}
+
+
+  .last_page
+  {
+margin-top: 150px;
+    height:245px;
+    width:1358px;
+    color:white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 10px #d2d2d2;
+     background-color: #262626;
+  }
+  .para
+  {
+
+  }

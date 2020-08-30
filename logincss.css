@@ -1,0 +1,66 @@
+
+html
+{
+  background-image: url("1.jpg");
+}
+.header
+{
+  margin-top: 0px;
+  background-image:url("4.jpg");
+font-family: Cursive;
+text-align: center;
+font-size: 50px;
+font-weight: 10px;
+  height:100px;
+   width:1355px;
+  border:1px solid powderblack;
+
+}
+.header .para1
+{
+
+}
+
+.main .h1
+{
+
+  margin-top: 10px;
+  align:center;
+  border:2px groove  gray;
+  font-size: 10px;
+  height:35px;
+  width:60px;
+border-radius:10px;
+  background-color:gray;
+  color:white;
+}
+.main .border2
+{
+
+  margin-top:none;
+  margin-top: 10px;
+
+}
+.footer
+{
+  background-color: #262626;
+  margin-top:200px;
+  height:210px;
+  width:1350px;
+  background-color:#262626;
+  font-family: arial;
+  font-size: 18px;
+  text-shadow: 10px 20px 20px ;
+  text-align: center;
+  border:2px solid black;
+  }
+
+
+.aside
+{
+
+}
+.loginbutton:hover
+{
+background-color:gray;
+}
